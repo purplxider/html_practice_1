@@ -121,6 +121,50 @@ body {
     text-decoration: underline;
 }
 
+.conB .text {
+        flex: 1;
+    }
+
+/* 콘텐츠 C: 개요(이미+글자) */
+.conC {
+    background-color: #5D9AB2;
+    background-color: var(--main-color);
+    color: #ffffff;
+    color: var(--text-bright-color);
+}
+
+.conC h2 {
+    margin-top: 0;
+    margin-bottom: 10px;
+    font-size: 20px;
+}
+
+.conC p {
+    margin-top: 0;
+    margin-bottom: 20px;
+    font-size: 14px;
+    line-height: 1.8;
+    opacity: 0.8;
+}
+
+.conC a {
+    display: inline-block;
+    margin-top: 20px;
+    padding: 10px 30px;
+    border: solid 3px currentColor;
+    border-radius: 6px;
+    background-color: #BF6A7A;
+    background-color: var(--accent-color);
+    color: #ffffff;
+    color: var(--text-bright-color);
+    font-size: 14px;
+    text-decoration: none;
+}
+
+.conC a:hover {
+    background-image: linear-gradient(rgba(255,255,255,0.2), rgba(255,255,255,0.2));
+}
+
 @media (min-width: 768px) {
     .conA h1 {
         font-size: 115px;
@@ -138,7 +182,5 @@ body {
         margin-right: auto;
     }
     
-    .conB .text {
-        flex: 1;
-    }
+    
 }
